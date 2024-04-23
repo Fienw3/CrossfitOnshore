@@ -70,7 +70,7 @@
         </div>
     </div>
 
-    <div class="container_buttom center">
+    <div class="container_bottom center">
         <div class="col-10">
             <button class="btn_2">SE ALLE HOLD</button>
         </div>
@@ -97,7 +97,7 @@
         </div>
     </div>
     
-    <div class="container_buttom center">
+    <div class="container_bottom center">
         <div class="col-10">
             <button class="btn_2">HØR MERE</button>
         </div>
