@@ -80,6 +80,7 @@
 </section>
 
 
+
 <!--FAQ-->
 <section>
     <div class="container_top center">
@@ -90,8 +91,8 @@
     </div>
 
     <div class="dropdown-faq">
-        <div class="row justify-content-center">
-            <div class="col-10">
+        <div class="row gx-0 justify-content-center">
+            <div class="col-md-8"> <!-- Adjusted column width -->
                 
             <!-- First dropdown -->
                 <div class="dropdown mb-4">
