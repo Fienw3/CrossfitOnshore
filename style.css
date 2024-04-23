@@ -94,3 +94,8 @@ button{
     background-color: aqua;
     padding: 6rem 0;
 }
+
+.container_sneakpeak{
+    background-color: var(--quaternary-color);
+    padding: 3rem 0;
+}
