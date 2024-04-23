@@ -1,0 +1,89 @@
+:root{
+    --primary-color: #F5F5F5;
+    --secondary-color: #3DA9DB;
+    --tertiary-color: #13233A;
+    --quaternary-color: #F4F6F7;
+}
+
+.hero_main{
+    background-color: aqua;
+    height: 100vh;
+}
+
+.container_top{
+    padding: 6rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_buttom{
+    padding: 3rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container{
+    background-color: var(--quaternary-color);
+    padding: 6rem 0;
+}
+
+.container_end{
+    background-color: aqua;
+    padding: 6rem 0;
+}
+
+/* ALIGNMENT */
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* BUTTONS */
+
+button{
+    border: none;
+    box-shadow: none;
+    border-radius: 3px !important;
+    box-shadow: 0 0 6px #0000003e;
+
+    padding: 0 1rem;
+}
+
+.btn_1 {
+    background-color: #f5f5f5;
+    color: var(--tertiary-color);
+}
+
+.btn_1:hover {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+}
+
+.btn_2 {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+}
+
+.btn_3 {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 4px solid var(--primary-color);
+}
+
+.btn_2:hover {
+    background-color: var(--secondary-color);
+}
+
+/* TEXT */
+
+.text_white {
+    color: var(--primary-color);
+}
+
+.text_blue {
+    color: var(--secondary-color);
+}
