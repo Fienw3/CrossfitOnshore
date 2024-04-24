@@ -8,7 +8,7 @@
 <section>
     <div class="about cover">
         <div class="col-10">
-            <h1 class="text-center">Om os</h1>
+            <h1 class="text-center">OM OS</h1>
         </div>
 
     </div>
@@ -148,7 +148,7 @@
             <div style="width: 50%;">
                 <h5 class="text_blue">KONSULTATION</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-                <button class="btn_2">BOOK KONSULTATION</button>
+                <button class="btn_2">BOOK NU</button>
             </div>
         </div>
     </div>
