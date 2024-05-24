@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 5.2 49.7">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #132339;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #13233a;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-5);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" width="5.2" height="5.2"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <circle class="cls-5" cx="2.6" cy="2.6" r="2.6"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-4" y="44.5" width="5.2" height="5.2"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <circle class="cls-2" cx="2.6" cy="47.1" r="2.6"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-4" y="22.3" width="5.2" height="5.2"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <circle class="cls-2" cx="2.6" cy="24.9" r="2.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-9">
+    <g>
+      <circle class="cls-6" cx="2.6" cy="2.6" r="2.6"/>
+      <g class="cls-7">
+        <path class="cls-5" d="M0,0h5.2v5.2H0V0Z"/>
+      </g>
+    </g>
+  </g>
+  <g class="cls-3">
+    <g>
+      <circle class="cls-1" cx="2.6" cy="47.1" r="2.6"/>
+      <g class="cls-10">
+        <path class="cls-2" d="M0,44.5h5.2v5.2H0v-5.2Z"/>
+      </g>
+    </g>
+  </g>
+  <g class="cls-8">
+    <g>
+      <circle class="cls-1" cx="2.6" cy="24.9" r="2.6"/>
+      <g class="cls-11">
+        <path class="cls-2" d="M0,22.3h5.2v5.2H0v-5.2Z"/>
+      </g>
+    </g>
+  </g>
+  <rect class="cls-5" x="2.3" y="2.6" width=".6" height="44.5"/>
+</svg>

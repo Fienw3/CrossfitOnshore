@@ -1,3 +1,4 @@
+/* Colors */
 :root{
     --primary-color: #F5F5F5;
     --secondary-color: #3DA9DB;
@@ -5,7 +6,39 @@
     --quaternary-color: #F4F6F7;
 }
 
+.kon-list:not(:last-child) {
+    padding-bottom: 5vh;
+}
+
 /* TYPOGRAPHY */
+h1, h2, h3, h4, h5 {
+    font-family: "din-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3rem !important;
+}
+
+p {
+    font-size: 1rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn_1, .btn_2, .btn_3, .wpcf7-submit{
+    font-family: "din-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-item {
+    font-family: "din-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 .text_white {
     color: var(--primary-color);
@@ -19,7 +52,16 @@
     color: var(--tertiary-color);
 }
 
+h2, .banner-text {
+    font-size: 2rem !important;
+}
+
+h3 {
+    font-size: 1.75rem !important;
+}
+
 /* ALIGNMENT */
+
 .center{
     display: flex;
     flex-direction: column;
@@ -35,12 +77,18 @@
 
 /* BUTTONS */
 
-button{
+button, .wpcf7-submit{
+    font-size: 1.5rem !important;
     border: none;
     border-radius: 3px !important;
     box-shadow: 0 0 6px #0000003e;
 
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn {
+    box-shadow: none;
+    color: black !important;
 }
 
 .btn_1 {
@@ -53,19 +101,21 @@ button{
     color: var(--primary-color);
 }
 
-.btn_2 {
-    background-color: var(--tertiary-color);
+.btn_2, .wpcf7-submit {
+    background-color: var(--tertiary-color) !important;
     color: var(--primary-color);
 }
 
 .btn_3 {
+    text-shadow: 0 0 6px #0000003e;
     background-color: transparent;
     color: var(--primary-color);
-    border: 4px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
-.btn_2:hover {
-    background-color: var(--secondary-color);
+.btn_2:hover, .wpcf7-submit:hover {
+    background-color: var(--secondary-color) !important;
+    color: var(--tertiary-color);
 }
 
 /* NAVBAR */
@@ -82,8 +132,12 @@ button{
     margin: 0 2rem;
 }
 
+.nav-link, .dropdown-item {
+    font-size: 1.25rem !important;
+}
+
 .dropdown-menu {
-    border-radius: 6px !important;
+    border-radius: 3px !important;
 }
 
 .dropdown-icon:hover {
@@ -93,7 +147,7 @@ button{
 /* FOOTER */
 footer {
     background-color: #212121;
-    padding: 32px 12px 32px 12px;
+    padding: 2rem 0;
 }
 
 .footer-inner-container {
@@ -121,52 +175,273 @@ footer {
 /* CONTAINERS */
 
 .hero_main{
-    background-color: aqua;
     height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    width: 100%;
+}
+
+.hero-video {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.team-preview-container {
+    height: 50vh;
+    text-shadow: 0 0 6px #0000003e;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-container {
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-text-container, .info-text-container-2 {
+    width: 100%;
+    padding: 4rem 12px 4rem 12px;
 }
 
 .cover{
-    background-color: aqua;
-    height: 45vh;
+    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container_top{
-    padding: 6rem 0 2rem 0;
+    padding: 6rem 12px 2rem 12px;
 }
 
 .container_bottom{
-    padding: 3rem 0 2rem 0;
+    padding: 2rem 12px 6rem 12px;
 }
 
 .card-container{
     background-color: var(--quaternary-color);
-    padding: 6rem 0 !important;
+    padding: 4rem 0;
+}
+
+.card /*FAQ card*/ {
+    background-color: var(--quaternary-color) !important;
+    border-radius: 0 !important;
+    border: 1px solid #D6DAD9 !important;
+    border-left: 2px solid #D6DAD9!important;
+    border-right: 2px solid #D6DAD9!important;
+}
+
+.card-header {
+    background-color: var(--quaternary-color) !important;
+    border-color: #D6DAD9 !important;
+}
+
+.card-body {
+    background-color: white !important;
 }
 
 .card-content{
-    background-color: var(--quaternary-color);
-    padding: 3rem !important;
+    padding: 1rem 1rem 0 1rem;
     border: none;
 }
 
+.card-img {
+    height: 100%;
+    width: auto;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .container_end{
-    background-color: aqua;
+    text-shadow: 0 0 6px #0000003e;
     padding: 6rem 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container_sneakpeak{
     background-color: var(--quaternary-color);
-    padding: 3rem 0;
+    padding: 4rem 0;
+}
+
+.sneakpeak-img-container{
+    width: 100%;
+}
+
+.sneakpeak-img{
+    width: 100%;
+    height: auto;
+}
+
+.sneakpeak-text-container{
+    width: 100%;
+    margin-top: 2rem;
 }
 
 /* SCALE */
+
+.split, .split_2 {
+    width: 100%;
+} /* split 2 to 1 */
+
+.split_3 {
+    width: 100%;
+} /* split 4 to 3 to 2 to 1 */
+
+.split-brandon-img {
+    width: 100%;
+}
+
+.split-brandon-text {
+    width: 100%;
+}
+
+.flex-gap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+/* CF7 */
+
+label {
+    width: 100% !important;
+    display:inline-block !important;
+}
+
+.wpcf7-form-control {
+    width: 100%;
+    margin: 0 !important;
+
+    padding: 0.5rem 1rem;
+    background-color: var(--quaternary-color);
+    border-radius: 3px;
+    border: 1px solid #D6DAD9;
+    
+}
+
+@media (min-width: 768px) {
+
+    /* TYPOGRAPHY */
+    h1 {
+        font-size: 6em !important;
+    }
+
+    h2, .banner-text {
+        font-size: 3rem !important;
+    }
+
+    h3 {
+        font-size: 2.4rem !important;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    /* CONTAINERS */
+    .hero_main{
+        height: 100vh;
+    }
+
+    .cover {
+        height: 60vh;
+    }
+
+    .card-container {
+        display: flex;
+    }
+
+    .team-preview-container{
+        height: 70vh;
+    }
+
+    .info-text-container {
+        width: 50%;
+        padding: 0 12px 0 2rem;
+    }
+
+    .info-text-container-2 {
+        width: 50%;
+        padding: 0 2rem 0 12px;
+    }
+    
+    
+    .sneakpeak-text-container{
+        margin-top: 0;
+    }
+
+    /* DISPLAY */
+    .split {
+        width: 50%;
+    }
+
+    .split_3 {
+        width: 50%;
+    }
+
+    .split-brandon-img {
+        width: 40%;
+    }
+    
+    .split-brandon-text {
+        width: 55%;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .flex-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
 @media (min-width: 992px) {
 
+    /* NAVBAR */
+    .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        z-index: 1000;
+    }
+    
+    /* Add CSS to prevent default behavior when clicking on the dropdown toggle */
+    .navbar-nav .dropdown-toggle:focus {
+        pointer-events: none; /* Disable pointer events to prevent clicking */
+    }
+    
     /* FOOTER */
     .footer-container {
+        display: flex;
+    }
+
+    .footer-outer-container {
         display: flex;
     }
 
@@ -176,5 +451,51 @@ footer {
 
     .footer-map-container {
         width: 20%;
+    }
+
+    /* CONTAINERS */
+    .info-container {
+        height: 60vh;
+    }
+
+    .info-text-container {
+        width: 41.6666667%;
+    }
+
+    .info-text-container-2 {
+        width: 41.6666667%;
+    }
+
+    /* DISPLAY */
+    .flex_2 {
+        display: flex;
+    }
+
+    .flex_2_reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .split_2{
+        width: 50%;
+    }
+
+    .split_3 {
+        width: 33.3333333%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .split_3 {
+        width: 25%;
+    }
+
+    /* CONTAINERS */
+    .sneakpeak-img-container{
+        width: 30%;
+    }
+    
+    .sneakpeak-text-container{
+        width: 50%;
     }
 }
