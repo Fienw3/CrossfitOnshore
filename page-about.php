@@ -68,6 +68,7 @@
 
 
 <!--FAQ-->
+
 <section id="faq">
     <div class="container_top center">
         <div class="col-12 col-lg-10" style="padding: 12px;">
@@ -81,54 +82,55 @@
             <div class="col-12 col-lg-10" style="padding: 12px;">
                 <div class="card" style="border-top: 2px solid #D6DAD9!important;">
                     <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-decoration: none;">
-                        Hvem kan dyrke Crossfit? ▾
-                        </button>
-                    </h5>
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" style="text-decoration: none;" disabled>
+                                Hvem kan dyrke Crossfit?
+                            </button>
+                        </h5>
                     </div>
 
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                        <p>Crossfit er for alle. Hos Crossfit Onshore vægter vi diversitet, og at have hold der passer alle. Vi har derfor hold der passer alle fra 6-99 år. Dette gør at vi har timer der specifikt er modificerede til børn og seniorer. Vi har også hold til forskellige trænings niveau, så Crossfit Onshore har hold for nybegyndere såvel som øvede. </p>
-                        <p>Du kan læse mere om dette under vores ”Hold” side, eller ved at booke en konsultation.</p>
-                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Crossfit er for alle. Hos Crossfit Onshore vægter vi diversitet, og at have hold der passer alle. Vi har derfor hold der passer alle fra 6-99 år. Dette gør at vi har timer der specifikt er modificerede til børn og seniorer. Vi har også hold til forskellige trænings niveau, så Crossfit Onshore har hold for nybegyndere såvel som øvede. </p>
+                            <p>Du kan læse mere om dette under vores ”Hold” side, eller ved at booke en konsultation.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="text-decoration: none;">
-                        Hvor ligger CrossFit Onshore? ▾
-                        </button>
-                    </h5>
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" style="text-decoration: none;" disabled>
+                                Hvor ligger CrossFit Onshore?
+                            </button>
+                        </h5>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body">
-                    Crossfit Onshore ligger på Helgolandsgade 17 6700 Esbjerg, ved havnen. Den bedste måde at finde hen til Crossfit Onshores indgang er at gå rundt om EmCare bygningen ad Vesterhavsgade.  
-                    </div>
+                    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Crossfit Onshore ligger på Helgolandsgade 17 6700 Esbjerg, ved havnen. Den bedste måde at finde hen til Crossfit Onshores indgang er at gå rundt om EmCare bygningen ad Vesterhavsgade.  
+                        </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="text-decoration: none;">
-                        Hvad er dresscode? ▾
-                        </button>
-                    </h5>
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" style="text-decoration: none;" disabled>
+                                Hvad er dresscode?
+                            </button>
+                        </h5>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">
-                    Hos Crossfit Onshore er der ingen dresscode, så længe du klæder dig passende. Tag noget tøj på hvor du føler dig behagelig i og hvor du kan bevæge dig frit. Udstyr der senere kan være til fordel, er træningshandsker.
-                    </div>
+                    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Hos Crossfit Onshore er der ingen dresscode, så længe du klæder dig passende. Tag noget tøj på hvor du føler dig behagelig i og hvor du kan bevæge dig frit. Udstyr der senere kan være til fordel, er træningshandsker.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
 
     <div class="container_bottom" style="padding-top: 0;"></div>    
 </section>
+
 
 <!-- Sneakpeaks -->
 <section>

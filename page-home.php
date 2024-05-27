@@ -8,7 +8,7 @@
 <!-- Hero Section -->
 <section>
     <div class="hero_main d-flex justify-content-center align-items-center">
-        <video src="<?php echo get_template_directory_uri(); ?>/assets/video/hero_video.mp4" class="hero-video" autoplay loop muted playsinline controls></video>
+        <video src="<?php echo get_template_directory_uri(); ?>/assets/video/hero_video.mp4" class="hero-video" autoplay loop muted playsinline></video>
         <div class="center col-12 col-lg-10" style="padding: 12px;">
             <div class="hero-container" style="color: var(--primary-color);">
                 <h1 style="text-shadow: 0 0 6px #0000003e;">CROSSFIT ONSHORE</h1>
